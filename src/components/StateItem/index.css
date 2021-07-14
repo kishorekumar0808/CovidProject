@@ -1,0 +1,285 @@
+.confirmed {
+  color: #ff073a;
+}
+.tested {
+  color: #007bff;
+}
+.recovered {
+  color: #28a745;
+}
+.deceased {
+  color: #6c757d;
+}
+.population {
+  color: #94a3b8;
+}
+.card-container {
+  width: 100%;
+
+  flex-wrap: wrap;
+  margin-top: 45px;
+  margin-bottom: 65px;
+}
+.card-container {
+  display: flex;
+
+  justify-content: center;
+}
+.card {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 8px;
+
+  flex-direction: column;
+
+  align-items: center;
+  font-weight: 700;
+}
+.spinner-container {
+  margin-top: 5rem;
+}
+.state-page-container {
+  background-color: #161625;
+  min-height: 90vh;
+  padding: 24px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  transition: background 0.1s ease-in-out;
+  cursor: pointer;
+}
+.spinner-container {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  height: 50vh;
+}
+.tested-button:hover {
+  background-color: #132240;
+}
+.recovered-button:hover {
+  background-color: #182829;
+}
+.deceased-button:hover {
+  background-color: #212230;
+}
+.confirmed-button:hover {
+  background-color: #331427;
+}
+.confirmed-background {
+  background-color: #331427;
+}
+.active-background {
+  background-color: #132240;
+}
+.recovered-background {
+  background-color: #182829;
+}
+.deceased-background {
+  background-color: #212230;
+}
+.state-name-container {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+.state-name-update-details-card {
+  padding: 5px;
+  height: 100px;
+}
+.state-name-heading {
+  margin: 0;
+  padding: 6px 32px;
+  background-color: rgba(2, 132, 199, 0.16);
+  color: #0ea5e9;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 32px;
+  font-weight: 600;
+}
+.state-name-update-details-card {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+.last-date-text {
+  font-size: 12px;
+  color: #cbd5e1;
+}
+.card-title {
+  font-size: 12px;
+  font-weight: 500;
+}
+.card-count {
+  font-size: 16px;
+  font-weight: 500;
+}
+.tested-text {
+  font-size: 12px;
+  margin: 0;
+}
+.tested-count,
+.tested-text {
+  color: #94a3b8;
+  text-align: right;
+  width: 100%;
+}
+.tested-count {
+  font-size: 14px;
+  margin-top: 8px;
+}
+.cardContainer {
+  margin-top: 30px;
+}
+.top-districts-container {
+  width: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+  align-items: flex-start;
+  padding: 0;
+  margin-bottom: 45px;
+}
+.districts-list-item {
+  display: flex;
+
+  align-items: center;
+  width: 46%;
+  color: #94a3b8;
+  padding: 0;
+}
+.district-count {
+  color: #94a3b8;
+  font-weight: 500;
+  margin-right: 8px;
+  font-size: 14px;
+  width: 35%;
+}
+.district-name {
+  width: 65%;
+  color: #94a3b8;
+  font-size: 12px;
+  padding-left: 5px;
+}
+.district-heading {
+  width: 100%;
+  color: #ff073a;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.state-name-update-details-card {
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .state-page-container {
+    padding: 0 60px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .state-page-container {
+    padding: 0 160px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .state-name-update-details-card {
+    margin-top: 60px;
+  }
+  .state-name-heading {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .last-date-text {
+    font-size: 16px;
+    color: #cbd5e1;
+  }
+  .tested-count {
+    font-size: 24px;
+  }
+  .card-title,
+  .tested-text {
+    font-size: 16px;
+  }
+  .card-count {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .district-name {
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .district-name {
+    font-size: 16px;
+  }
+  .district-count {
+    font-size: 24px;
+  }
+  .district-heading {
+    font-size: 32px;
+  }
+}
+.spread-trend-container {
+  width: 100%;
+  color: #cbd5e1;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.spread-heading {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0 0 7px;
+}
+.spread-button {
+  width: 30%;
+  padding: 10px;
+  margin: 3px;
+  background-color: #1c1c2b;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #64748b;
+  border-radius: 3px;
+}
+@media screen and (min-width: 768px) {
+  .top-districts-container {
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    padding: 0;
+  }
+  .districts-list-item {
+    display: flex;
+    width: 200px;
+    margin: 1px 9px;
+    color: #94a3b8;
+    padding: 0;
+  }
+}
